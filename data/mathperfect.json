@@ -1,0 +1,610 @@
+{
+  "worksheets": [
+    {
+      "id": "ws-1789134923353-p1li2",
+      "title": "Quadratic Equations & Roots Practice Worksheet",
+      "topic": "Quadratic Equations & Roots",
+      "grade": "Grade 10 - High School",
+      "difficulty": "Standard",
+      "questionType": "mixed",
+      "questionCount": 3,
+      "schoolName": "MATH PERFECT Education",
+      "instructions": "Show all your work clearly. Complete each question carefully.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Find the values of k for which the quadratic equation $x^2 - 6x + k = 0$ has exactly one real solution (a repeated root).",
+          "correctAnswer": "k = 9",
+          "solution": "For a quadratic equation ax^2 + bx + c = 0 to have exactly one real solution, the discriminant D = b^2 - 4ac must equal 0. Here, a = 1, b = -6, and c = k. Substituting these into the discriminant formula: (-6)^2 - 4(1)(k) = 0. This simplifies to 36 - 4k = 0. Solving for k gives 36 = 4k, so k = 9.",
+          "hint": "Recall that a quadratic equation has a repeated root if and only if the discriminant is equal to zero.",
+          "marks": 3,
+          "options": [
+            "k = 6",
+            "k = 9",
+            "k = 36",
+            "k = -9"
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Solve for x in the equation $2x^2 - 5x - 3 = 0$ by factoring.",
+          "correctAnswer": "x = 3 or x = -0.5",
+          "solution": "To factor 2x^2 - 5x - 3 = 0, we look for two numbers that multiply to (2 * -3) = -6 and add to -5. These numbers are -6 and 1. Rewrite the middle term: 2x^2 - 6x + x - 3 = 0. Factor by grouping: 2x(x - 3) + 1(x - 3) = 0. This gives (2x + 1)(x - 3) = 0. Setting each factor to zero, we get x - 3 = 0 (so x = 3) and 2x + 1 = 0 (so x = -1/2).",
+          "hint": "Use the grouping method: find two numbers that multiply to 'ac' and sum to 'b'.",
+          "marks": 4,
+          "options": [
+            "x = 3 or x = 0.5",
+            "x = -3 or x = 0.5",
+            "x = 3 or x = -0.5",
+            "x = -3 or x = -0.5"
+          ]
+        },
+        {
+          "id": 3,
+          "question": "If the roots of the quadratic equation $x^2 + px + q = 0$ are 2 and -5, determine the values of p and q.",
+          "correctAnswer": "p = 3, q = -10",
+          "solution": "If the roots are r1 = 2 and r2 = -5, the quadratic can be written as (x - r1)(x - r2) = 0. Substituting the roots: (x - 2)(x + 5) = 0. Expanding this gives x^2 + 5x - 2x - 10 = 0, which simplifies to x^2 + 3x - 10 = 0. Comparing this to x^2 + px + q = 0, we identify p = 3 and q = -10.",
+          "hint": "Recall Vieta's formulas: the sum of the roots is -p and the product of the roots is q.",
+          "marks": 4
+        }
+      ],
+      "createdAt": "2026-09-11T13:55:23.353Z",
+      "createdBy": "Math Perfect AI Curriculum"
+    },
+    {
+      "id": "ws-1789134782577-3yku8",
+      "title": "Quadratic Equations & Roots Practice Worksheet",
+      "topic": "Quadratic Equations & Roots",
+      "grade": "Grade 10 - High School",
+      "difficulty": "Standard",
+      "questionType": "mixed",
+      "questionCount": 3,
+      "schoolName": "MATH PERFECT Education",
+      "instructions": "Show all your work clearly. Complete each question carefully.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Find the roots of the quadratic equation: x² - 5x + 6 = 0",
+          "options": [
+            "x = 2 or x = 3",
+            "x = -2 or x = -3",
+            "x = 3 or x = 2",
+            "x = 4 or x = 3"
+          ],
+          "correctAnswer": "x = 2 or x = 3",
+          "solution": "Factoring the quadratic: (x - 2)(x - 3) = 0. Setting each factor to zero gives roots x = 2 and x = 3.",
+          "hint": "Look for two numbers that multiply to 6 and add to -5.",
+          "marks": 3
+        },
+        {
+          "id": 2,
+          "question": "Solve for x by completing the square or using the quadratic formula: x² - 7x + 12 = 0. Show all steps clearly.",
+          "correctAnswer": "x = 3 or x = 4",
+          "solution": "Using the quadratic formula with a = 1, b = -7, c = 12: Discriminant Δ = (-7)² - 4(1)(12) = 49 - 48 = 1. Therefore x = (-(-7) ± 1) / 2 = 3 or 4.",
+          "hint": "Calculate Δ = b² - 4ac first.",
+          "marks": 4
+        },
+        {
+          "id": 3,
+          "question": "Find the roots of the quadratic equation: x² - 9x + 20 = 0",
+          "options": [
+            "x = 4 or x = 5",
+            "x = -4 or x = -5",
+            "x = 5 or x = 4",
+            "x = 8 or x = 5"
+          ],
+          "correctAnswer": "x = 4 or x = 5",
+          "solution": "Factoring the quadratic: (x - 4)(x - 5) = 0. Setting each factor to zero gives roots x = 4 and x = 5.",
+          "hint": "Look for two numbers that multiply to 20 and add to -9.",
+          "marks": 3
+        }
+      ],
+      "createdAt": "2026-09-11T13:53:02.577Z",
+      "createdBy": "Math Perfect AI Curriculum"
+    },
+    {
+      "id": "ws-1789134550997-n9a6w",
+      "title": "Fraction & Decimal Operations Practice Worksheet",
+      "topic": "Fraction & Decimal Operations",
+      "grade": "Grade 7 - Middle School",
+      "difficulty": "Standard",
+      "questionType": "word-problems",
+      "questionCount": 5,
+      "schoolName": "MATH PERFECT EDUCATION",
+      "instructions": "Show all intermediate mathematical working steps clearly.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Simplify the algebraic expression: 2(x + 5) - 1(x - 11).",
+          "correctAnswer": "x + 21",
+          "solution": "Distribute terms: (2x + 10) - (1x - 11) = 2x - 1x + 10 + 11 = x + 21.",
+          "hint": "Distribute the constants carefully, remembering that negative times negative is positive.",
+          "marks": 3
+        },
+        {
+          "id": 2,
+          "question": "Simplify the algebraic expression: 3(x + 8) - 2(x - 18).",
+          "correctAnswer": "x + 60",
+          "solution": "Distribute terms: (3x + 24) - (2x - 36) = 3x - 2x + 24 + 36 = x + 60.",
+          "hint": "Distribute the constants carefully, remembering that negative times negative is positive.",
+          "marks": 3
+        },
+        {
+          "id": 3,
+          "question": "Simplify the algebraic expression: 4(x + 11) - 3(x - 25).",
+          "correctAnswer": "x + 119",
+          "solution": "Distribute terms: (4x + 44) - (3x - 75) = 4x - 3x + 44 + 75 = x + 119.",
+          "hint": "Distribute the constants carefully, remembering that negative times negative is positive.",
+          "marks": 3
+        },
+        {
+          "id": 4,
+          "question": "Simplify the algebraic expression: 5(x + 14) - 4(x - 32).",
+          "correctAnswer": "x + 198",
+          "solution": "Distribute terms: (5x + 70) - (4x - 128) = 5x - 4x + 70 + 128 = x + 198.",
+          "hint": "Distribute the constants carefully, remembering that negative times negative is positive.",
+          "marks": 3
+        },
+        {
+          "id": 5,
+          "question": "Simplify the algebraic expression: 6(x + 17) - 5(x - 39).",
+          "correctAnswer": "x + 297",
+          "solution": "Distribute terms: (6x + 102) - (5x - 195) = 6x - 5x + 102 + 195 = x + 297.",
+          "hint": "Distribute the constants carefully, remembering that negative times negative is positive.",
+          "marks": 3
+        }
+      ],
+      "createdAt": "2026-09-11T13:49:10.997Z",
+      "createdBy": "Math Perfect AI Curriculum"
+    },
+    {
+      "id": "ws-sample-1",
+      "title": "Mastering Quadratic Equations & Factorization",
+      "topic": "Quadratic Equations",
+      "grade": "Grade 10",
+      "difficulty": "Standard",
+      "questionType": "mixed",
+      "questionCount": 5,
+      "schoolName": "MATH PERFECT Education",
+      "instructions": "Answer all questions. Show all working steps clearly. Calculators are permitted unless specified.",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Solve by factoring: x² - 9x + 20 = 0",
+          "correctAnswer": "x = 4 or x = 5",
+          "solution": "Find two numbers that multiply to 20 and add to -9: (-4) and (-5). (x - 4)(x - 5) = 0 => x = 4 or x = 5.",
+          "hint": "Identify factors of 20 that sum up to -9.",
+          "marks": 3
+        },
+        {
+          "id": 2,
+          "question": "What is the nature of the roots of 3x² + 5x + 4 = 0?",
+          "options": [
+            "Two distinct real roots",
+            "Two equal real roots",
+            "Complex/non-real conjugate roots",
+            "Infinitely many roots"
+          ],
+          "correctAnswer": "Complex/non-real conjugate roots",
+          "solution": "Compute discriminant Δ = b² - 4ac = 5² - 4(3)(4) = 25 - 48 = -23. Since Δ < 0, roots are complex conjugates.",
+          "hint": "Use the discriminant sign: Δ > 0 (real distinct), Δ = 0 (equal), Δ < 0 (complex).",
+          "marks": 2
+        },
+        {
+          "id": 3,
+          "question": "Find the vertex and line of symmetry of the parabola y = 2x² - 8x + 5.",
+          "correctAnswer": "Vertex: (2, -3); Axis of symmetry: x = 2",
+          "solution": "x-coordinate of vertex = -b/(2a) = -(-8)/(2 × 2) = 8/4 = 2. Substitute into equation: y = 2(2)² - 8(2) + 5 = 8 - 16 + 5 = -3. Vertex is (2, -3), line of symmetry is x = 2.",
+          "hint": "Use the formula x = -b/(2a).",
+          "marks": 4
+        },
+        {
+          "id": 4,
+          "question": "A projectile is launched from ground level with height h(t) = -5t² + 30t meters after t seconds. At what time does it reach maximum height and what is the maximum height?",
+          "correctAnswer": "Max height at t = 3 seconds; Max height = 45 meters",
+          "solution": "Peak occurs at vertex t = -b/(2a) = -30/(2 × -5) = 3 seconds. Height at t = 3: h(3) = -5(9) + 30(3) = -45 + 90 = 45 meters.",
+          "hint": "The vertex of a downward-opening parabola gives the maximum.",
+          "marks": 5
+        },
+        {
+          "id": 5,
+          "question": "Solve 2x² + 4x - 6 = 0 using the quadratic formula.",
+          "options": [
+            "x = 1 or x = -3",
+            "x = -1 or x = 3",
+            "x = 2 or x = -6",
+            "x = 1/2 or x = -3/2"
+          ],
+          "correctAnswer": "x = 1 or x = -3",
+          "solution": "Divide entire equation by 2: x² + 2x - 3 = 0. Δ = 2² - 4(1)(-3) = 4 + 12 = 16. x = (-2 ± 4)/2 => x = 2/2 = 1 or x = -6/2 = -3.",
+          "hint": "Simplify coefficients by dividing by common factor first.",
+          "marks": 3
+        }
+      ],
+      "createdAt": "2026-09-11T13:05:26.592Z",
+      "createdBy": "System Curriculum Specialist"
+    }
+  ],
+  "questionBank": [
+    {
+      "id": "qb-custom-1789132217967",
+      "topic": "Algebra",
+      "subtopic": "Polynomials",
+      "grade": "Grade 10",
+      "difficulty": "Medium",
+      "type": "short-answer",
+      "question": "solve 3x + 3  = 12",
+      "answer": " x = 5",
+      "explanation": "Understanding",
+      "hint": "Review the underlying fundamental definition.",
+      "tags": [
+        "algebra",
+        "custom"
+      ]
+    },
+    {
+      "id": "qb-1",
+      "topic": "Algebra",
+      "subtopic": "Quadratic Equations",
+      "grade": "Grade 10",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "question": "Solve for x: 2x² - 7x + 3 = 0",
+      "options": [
+        "x = 3 or x = 1/2",
+        "x = -3 or x = -1/2",
+        "x = 3 or x = -1/2",
+        "x = 2 or x = 3/2"
+      ],
+      "answer": "x = 3 or x = 1/2",
+      "explanation": "Using the quadratic formula x = (-b ± √(b² - 4ac)) / (2a): a = 2, b = -7, c = 3. Discriminant Δ = (-7)² - 4(2)(3) = 49 - 24 = 25. Thus x = (7 ± 5)/4 => x = 12/4 = 3 or x = 2/4 = 1/2.",
+      "hint": "Calculate the discriminant Δ = b² - 4ac first.",
+      "tags": [
+        "Quadratic Formula",
+        "Factoring",
+        "Polynomials"
+      ]
+    },
+    {
+      "id": "qb-2",
+      "topic": "Calculus",
+      "subtopic": "Differentiation",
+      "grade": "Grade 12",
+      "difficulty": "Medium",
+      "type": "short-answer",
+      "question": "Find the derivative of f(x) = x³ · e^(2x) with respect to x.",
+      "answer": "f'(x) = e^(2x) · (2x³ + 3x²)",
+      "explanation": "Apply the Product Rule: (u · v)' = u'v + uv'. Here u = x³, so u' = 3x²; v = e^(2x), so v' = 2e^(2x) (by chain rule). Therefore f'(x) = 3x² · e^(2x) + x³ · 2e^(2x) = e^(2x)(2x³ + 3x²).",
+      "hint": "Use the product rule along with the chain rule for e^(2x).",
+      "tags": [
+        "Product Rule",
+        "Chain Rule",
+        "Exponentials"
+      ]
+    },
+    {
+      "id": "qb-3",
+      "topic": "Geometry",
+      "subtopic": "Pythagorean Theorem & Circles",
+      "grade": "Grade 9",
+      "difficulty": "Easy",
+      "type": "mcq",
+      "question": "A right-angled triangle has a base of 8 cm and an altitude of 15 cm. What is the length of the hypotenuse?",
+      "options": [
+        "17 cm",
+        "16 cm",
+        "19 cm",
+        "23 cm"
+      ],
+      "answer": "17 cm",
+      "explanation": "By the Pythagorean theorem: c² = a² + b² = 8² + 15² = 64 + 225 = 289. Since √289 = 17, the hypotenuse is 17 cm.",
+      "hint": "Recall the Pythagorean triplet: 8, 15, 17.",
+      "tags": [
+        "Right Triangles",
+        "Pythagorean Triplet",
+        "Lengths"
+      ]
+    },
+    {
+      "id": "qb-4",
+      "topic": "Trigonometry",
+      "subtopic": "Identities",
+      "grade": "Grade 11",
+      "difficulty": "Hard",
+      "type": "proof",
+      "question": "Prove that (sin θ + cos θ)² = 1 + sin 2θ for all real values of θ.",
+      "answer": "LHS = sin² θ + 2 sin θ cos θ + cos² θ = (sin² θ + cos² θ) + 2 sin θ cos θ = 1 + sin 2θ = RHS.",
+      "explanation": "Expanding the left hand side: (sin θ + cos θ)² = sin² θ + 2 sin θ cos θ + cos² θ. Using the Pythagorean identity sin² θ + cos² θ = 1, and the double angle formula sin 2θ = 2 sin θ cos θ, we arrive at 1 + sin 2θ.",
+      "hint": "Expand the squared binomial and apply fundamental identities.",
+      "tags": [
+        "Trig Identity",
+        "Double Angle",
+        "Proofs"
+      ]
+    },
+    {
+      "id": "qb-5",
+      "topic": "Statistics",
+      "subtopic": "Probability & Distributions",
+      "grade": "Grade 11",
+      "difficulty": "Medium",
+      "type": "short-answer",
+      "question": "A fair six-sided die is rolled twice. What is the probability of getting a sum strictly greater than 9?",
+      "answer": "1/6 (or approx 16.67%)",
+      "explanation": "Total outcomes = 6 × 6 = 36. Favorable outcomes where sum > 9 (i.e. sum = 10, 11, or 12): Sum 10: (4,6), (5,5), (6,4) [3 outcomes]; Sum 11: (5,6), (6,5) [2 outcomes]; Sum 12: (6,6) [1 outcome]. Total favorable = 3 + 2 + 1 = 6. Probability = 6/36 = 1/6.",
+      "hint": "List pairs that produce sums of 10, 11, and 12.",
+      "tags": [
+        "Probability",
+        "Combinatorics",
+        "Dice"
+      ]
+    },
+    {
+      "id": "qb-6",
+      "topic": "Number Theory",
+      "subtopic": "Prime Factorization & Modular Arithmetic",
+      "grade": "Grade 8",
+      "difficulty": "Easy",
+      "type": "mcq",
+      "question": "What is the greatest common divisor (GCD) of 84 and 180?",
+      "options": [
+        "12",
+        "6",
+        "14",
+        "24"
+      ],
+      "answer": "12",
+      "explanation": "Prime factorizations: 84 = 2² × 3 × 7; 180 = 2² × 3² × 5. Common factors: 2² × 3 = 4 × 3 = 12.",
+      "hint": "Find the lowest common powers of each shared prime factor.",
+      "tags": [
+        "GCD",
+        "LCM",
+        "Prime Factors"
+      ]
+    },
+    {
+      "id": "qb-7",
+      "topic": "Algebra",
+      "subtopic": "Systems of Linear Equations",
+      "grade": "Grade 9",
+      "difficulty": "Medium",
+      "type": "short-answer",
+      "question": "Solve the system: 3x + 2y = 19 and 2x - y = 8.",
+      "answer": "x = 5, y = 2",
+      "explanation": "From equation 2: y = 2x - 8. Substitute into equation 1: 3x + 2(2x - 8) = 19 => 3x + 4x - 16 = 19 => 7x = 35 => x = 5. Then y = 2(5) - 8 = 2.",
+      "hint": "Express y in terms of x using the second equation, then substitute.",
+      "tags": [
+        "Linear Systems",
+        "Substitution",
+        "Elimination"
+      ]
+    },
+    {
+      "id": "qb-8",
+      "topic": "Calculus",
+      "subtopic": "Integration",
+      "grade": "Grade 12",
+      "difficulty": "Hard",
+      "type": "extended",
+      "question": "Evaluate the definite integral: ∫ from 0 to 2 of (3x² - 4x + 1) dx.",
+      "answer": "2",
+      "explanation": "Find the antiderivative: F(x) = ∫(3x² - 4x + 1)dx = x³ - 2x² + x. Evaluate from 0 to 2: F(2) = 2³ - 2(2²) + 2 = 8 - 8 + 2 = 2. F(0) = 0. Therefore, the integral equals 2 - 0 = 2.",
+      "hint": "Apply the power rule of integration: ∫ x^n dx = (x^(n+1))/(n+1).",
+      "tags": [
+        "Definite Integrals",
+        "Fundamental Theorem",
+        "Polynomials"
+      ]
+    }
+  ],
+  "examPapers": [
+    {
+      "id": "exam-1",
+      "title": "Senior Secondary Mathematics Term Examination",
+      "grade": "Grade 10 / High School",
+      "subject": "Pure & Applied Mathematics",
+      "totalMarks": 80,
+      "timeMinutes": 180,
+      "instructions": [
+        "This question paper consists of 3 Sections: Section A (MCQs - 20 marks), Section B (Short Answer - 30 marks), and Section C (Long Answer - 30 marks).",
+        "All questions are compulsory. Internal choice is provided in certain sections.",
+        "Use of non-programmable scientific calculators is permitted.",
+        "Write legible step-by-step solutions with appropriate units."
+      ],
+      "sections": [
+        {
+          "name": "Section A: Foundational Knowledge & Concepts (20 Marks)",
+          "description": "Multiple choice questions assessing core definitions and fundamental principles.",
+          "questions": [
+            {
+              "id": 1,
+              "question": "If the discriminant of ax² + bx + c = 0 is zero, the roots are:",
+              "options": [
+                "Real and distinct",
+                "Real and equal",
+                "Non-real",
+                "Rational only"
+              ],
+              "marks": 1,
+              "solution": "Real and equal. When Δ = b² - 4ac = 0, both roots equal -b/(2a).",
+              "markingScheme": [
+                "Correct option identified: 1 mark"
+              ]
+            },
+            {
+              "id": 2,
+              "question": "The distance between the points (2, 3) and (10, 9) is:",
+              "options": [
+                "10 units",
+                "14 units",
+                "12 units",
+                "8 units"
+              ],
+              "marks": 1,
+              "solution": "Distance = √((10-2)² + (9-3)²) = √(64 + 36) = √100 = 10 units.",
+              "markingScheme": [
+                "Correct distance calculation: 1 mark"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Section B: Mathematical Modeling & Calculations (30 Marks)",
+          "description": "Short answer questions testing procedural fluency and multi-step reasoning.",
+          "questions": [
+            {
+              "id": 3,
+              "question": "Solve for x and y: 4x + 3y = 25 and x - 2y = -2.",
+              "marks": 3,
+              "solution": "From second equation, x = 2y - 2. Substitute: 4(2y - 2) + 3y = 25 => 8y - 8 + 3y = 25 => 11y = 33 => y = 3. Then x = 2(3) - 2 = 4. Solution: (4, 3).",
+              "markingScheme": [
+                "Substitution or elimination formulation: 1 mark",
+                "Correct determination of y: 1 mark",
+                "Correct determination of x: 1 mark"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Section C: Extended Reasoning & Problem Solving (30 Marks)",
+          "description": "High-order analytical proofs and multi-variable applications.",
+          "questions": [
+            {
+              "id": 4,
+              "question": "Prove that the tangents drawn from an external point to a circle are equal in length. Include a labeled geometric diagram description.",
+              "marks": 5,
+              "solution": "Let P be an external point to circle with center O. Tangents touch circle at A and B. Consider triangles OPA and OPB. OA = OB (radii). OP = OP (common hypotenuse). ∠OAP = ∠OBP = 90° (radius is perpendicular to tangent). By RHS congruence criterion, ΔOPA ≅ ΔOPB. Therefore PA = PB by CPCTC.",
+              "markingScheme": [
+                "Clear diagram description and Given/To Prove statements: 1 mark",
+                "Perpendicularity of radius and tangent cited: 1 mark",
+                "Hypotenuse-Leg (RHS) congruence justification: 2 marks",
+                "Conclusion PA = PB: 1 mark"
+              ]
+            }
+          ]
+        }
+      ],
+      "guessAnalysis": {
+        "trendingTopics": [
+          "Quadratic modeling and projectile trajectory",
+          "Coordinate geometry distance and section formula",
+          "Circle theorems (tangent lengths & alternate segment theorem)",
+          "Trigonometric heights & distances applications",
+          "Surface areas and volumes of composite solids"
+        ],
+        "highProbabilityTopics": [
+          {
+            "topic": "Quadratic Equations (Discriminant & Word Problems)",
+            "weight": 14,
+            "rationale": "Appeared consistently in 98% of past 5 years board and national assessments."
+          },
+          {
+            "topic": "Circles & Tangents Proofs",
+            "weight": 12,
+            "rationale": "Standard Section C mandatory theorem verification requirement."
+          },
+          {
+            "topic": "Trigonometric Identities & Elevations",
+            "weight": 15,
+            "rationale": "High weightage real-world elevation and depression multi-step question."
+          },
+          {
+            "topic": "Linear Equations in Two Variables",
+            "weight": 10,
+            "rationale": "Consistently forms core of Section B analytical marks."
+          }
+        ],
+        "examStrategy": [
+          "Spend first 10 minutes skimming questions and categorizing Section A vs Section C priorities.",
+          "Always write explicit formulas and specify units in final answers.",
+          "For geometric proofs, draw and label the diagram clearly before writing deductive steps.",
+          "Reserve 15 minutes at the end for algebraic sign checking."
+        ]
+      },
+      "createdAt": "2026-09-11T13:05:26.593Z"
+    }
+  ],
+  "savedSimulationsState": {},
+  "siteContent": {
+    "site.title": "MATH PERFECT",
+    "site.tagline": "Curriculum Intelligence",
+    "site.badge": "PRO",
+    "site.nav.home": "HOME",
+    "site.nav.worksheets": "WORKSHEETS",
+    "site.nav.activities": "ACTIVITIES",
+    "site.nav.simulations": "SIMULATIONS",
+    "site.nav.solvers": "SOLVERS",
+    "site.nav.questionbank": "QUESTION BANK",
+    "site.nav.exampaper": "EXAM PAPERS",
+    "site.nav.videos": "VIDEOS",
+    "site.header.cta": "AI WORKSHEET",
+    "home.hero.pillText": "Pure Mathematical Intelligence",
+    "home.hero.pillBadge": "8K Fidelity",
+    "home.hero.title1": "Precision Mathematics.",
+    "home.hero.title2": "Mastered With Absolute Clarity.",
+    "home.hero.description": "Institutional-grade mathematical intelligence crafted for educators, students, and institutions. Unifying generative AI worksheets, dynamic visual simulations, multi-step symbolic solvers, and authentic examination blueprints.",
+    "home.hero.ctaWorksheet": "Launch Worksheet Engine",
+    "home.hero.ctaSimulations": "Explore 3D Simulations",
+    "home.teaser.heading": "Parabolic Trajectory & Roots Live Engine",
+    "home.teaser.subheading": "Adjust coefficients a, b, and c in real-time to compute the discriminant Δ and inspect parabolic vertex geometry.",
+    "home.features.heading": "Institutional Mathematical Architecture",
+    "home.features.subheading": "Seven integrated computational pillars powering curriculum mastery from elementary foundational concepts to international Olympiad rigor.",
+    "home.card.worksheets.title": "Worksheet Generator",
+    "home.card.worksheets.desc": "Generate customized, pedagogical printable worksheets with instant answer keys, full step-by-step solutions, and native DOCX / vector PDF export.",
+    "home.card.worksheets.cta": "Generate Worksheet",
+    "home.card.activities.title": "Hands-on Activities",
+    "home.card.activities.desc": "Interactive discovery laboratories featuring dynamic geometry, projectile physics, Pythagorean visual proofs, and polynomial graphers.",
+    "home.card.activities.cta": "Open Activities",
+    "home.card.simulations.title": "3D Interactive Simulations",
+    "home.card.simulations.desc": "Visual interactive sandboxes for calculus tangents, Riemann sums, unit circle trigonometry, and linear algebra matrices.",
+    "home.card.simulations.cta": "Enter Lab",
+    "home.card.solvers.title": "Step-by-Step Solvers",
+    "home.card.solvers.desc": "Deconstruct complex problems with rigorous step-by-step proofs, intermediate formula steps, parabola geometry analyses, and linear system matrices.",
+    "home.card.solvers.cta": "Solve Problem",
+    "home.card.questionbank.title": "Question Bank",
+    "home.card.questionbank.desc": "Search and filter thousands of academic math questions by topic, grade level, difficulty, and question format with progressive hints and complete solutions.",
+    "home.card.questionbank.cta": "Browse Bank",
+    "home.card.exampaper.title": "Exam Papers & Guessing",
+    "home.card.exampaper.desc": "Standardized assessment builder with balanced cognitive sections (MCQ, short, extended proof), point rubrics, and predictive topic frequency analysis.",
+    "home.card.exampaper.cta": "Generate Exam",
+    "home.card.videos.title": "Curated Video Lessons",
+    "home.card.videos.desc": "High-yield video lectures covering geometric intuition, calculus insights, contest heuristics, and deep fundamental proofs.",
+    "home.card.videos.cta": "Watch Lessons",
+    "home.audience.heading": "Engineered for Every Mathematical Stakeholder",
+    "home.audience.subheading": "Empowering learners, guiding mentors, reassuring parents, and scaling institutional academic excellence.",
+    "footer.brandDesc": "Empowering educators, students, and curriculum directors worldwide with state-of-the-art computational pedagogy, generative assessment tooling, and interactive visualization.",
+    "footer.copyright": "© 2026 MATH PERFECT Education Inc. All mathematical rights reserved."
+  },
+  "users": [
+    {
+      "id": "usr-superadmin-1",
+      "email": "Rajasekhar.eda@gmail.com",
+      "name": "Rajasekhar Eda",
+      "role": "super_admin",
+      "status": "active",
+      "createdAt": "2026-09-13T16:10:12.662Z",
+      "lastActive": "2026-09-13T16:35:35.404Z",
+      "notes": "Primary Master Webmaster & Platform Owner"
+    },
+    {
+      "id": "usr-admin-2",
+      "email": "curriculum.lead@mathperfect.edu",
+      "name": "Curriculum Director",
+      "role": "super_admin",
+      "status": "active",
+      "createdAt": "2026-09-13T16:10:12.662Z",
+      "lastActive": "2026-09-13T16:10:12.662Z",
+      "notes": "Academic Content Lead"
+    },
+    {
+      "id": "usr-editor-3",
+      "email": "guest.editor@mathperfect.edu",
+      "name": "Guest Math Editor",
+      "role": "viewer",
+      "status": "active",
+      "createdAt": "2026-09-13T16:10:12.662Z",
+      "lastActive": "2026-09-13T16:10:12.662Z",
+      "notes": "Assistant question bank reviewer"
+    }
+  ]
+}

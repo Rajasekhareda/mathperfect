@@ -1,0 +1,175 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    letter-spacing: -0.01em;
+  }
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+.font-display {
+  font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  letter-spacing: -0.025em;
+}
+
+/* Ultra-premium glassmorphism utilities */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.5), inset 0 1px 0 0 rgba(255, 255, 255, 0.12);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 16px 36px -8px rgba(99, 102, 241, 0.08), inset 0 1px 0 0 rgba(255, 255, 255, 0.8);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4), 0 0 30px -5px rgba(99, 102, 241, 0.2);
+}
+
+/* Jewel Glow Utilities */
+.glow-sapphire {
+  box-shadow: 0 0 40px -10px rgba(99, 102, 241, 0.45);
+}
+
+.glow-emerald {
+  box-shadow: 0 0 40px -10px rgba(16, 185, 129, 0.45);
+}
+
+.glow-amethyst {
+  box-shadow: 0 0 40px -10px rgba(168, 85, 247, 0.45);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 40px -10px rgba(6, 182, 212, 0.45);
+}
+
+.glow-amber {
+  box-shadow: 0 0 40px -10px rgba(245, 158, 11, 0.45);
+}
+
+.glow-ruby {
+  box-shadow: 0 0 40px -10px rgba(244, 63, 94, 0.45);
+}
+
+/* =========================================================
+   Universal Button Glow for Clicked & Selected States
+   ========================================================= */
+:root {
+  --theme-primary: #06b6d4;
+  --theme-secondary: #6366f1;
+  --theme-accent: #10b981;
+}
+
+/* Smooth tactile response on all buttons */
+button,
+[role="button"],
+input[type="button"],
+input[type="submit"] {
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 1. BUTTON CLICKED (:active) - Contained compact radiant pulse */
+button:active,
+[role="button"]:active,
+input[type="button"]:active,
+input[type="submit"]:active,
+a[role="button"]:active {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8),
+              0 0 10px 1px var(--theme-primary, #06b6d4),
+              0 0 16px 2px var(--theme-secondary, #6366f1),
+              inset 0 0 6px rgba(255, 255, 255, 0.25) !important;
+  transform: scale(0.98) !important;
+}
+
+/* 2. BUTTON CLICKED (Expanding compact luminous wave upon click) */
+@keyframes buttonClickFlash {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7),
+                0 0 6px 1px var(--theme-primary, #06b6d4);
+  }
+  35% {
+    box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.85),
+                0 0 12px 2px var(--theme-primary, #06b6d4),
+                0 0 18px 3px var(--theme-secondary, #6366f1);
+  }
+  100% {
+    box-shadow: 0 0 0 0 transparent,
+                0 0 0 0 transparent,
+                0 0 0 0 transparent;
+  }
+}
+
+.btn-click-glow {
+  animation: buttonClickFlash 0.5s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+/* 3. BUTTON SELECTED / ACTIVE STATE GLOW (Contained, 50% reduced, does not spill over neighbors) */
+button[aria-selected="true"],
+button[data-selected="true"],
+button[aria-pressed="true"],
+button.active,
+button.selected,
+.btn-selected,
+.tab-selected,
+[data-state="active"] {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8),
+              0 0 10px 1px var(--theme-primary, #06b6d4),
+              0 0 16px 2px var(--theme-secondary, rgba(99, 102, 241, 0.3)) !important;
+  outline: none !important;
+}
+
+/* 4. BUTTON KEYBOARD FOCUS GLOW */
+button:focus-visible,
+[role="button"]:focus-visible,
+input[type="button"]:focus-visible,
+input[type="submit"]:focus-visible {
+  outline: none !important;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.85),
+              0 0 8px 1px var(--theme-primary, #06b6d4),
+              0 0 14px 2px var(--theme-secondary, rgba(99, 102, 241, 0.35)) !important;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.65;
+    transform: scale(1.08);
+  }
+}
+
+.animate-aurora {
+  animation: pulseGlow 8s ease-in-out infinite alternate;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}

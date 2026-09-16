@@ -1,0 +1,8 @@
+{
+  "name": "MATH PERFECT",
+  "description": "Premier mathematics education platform with intelligent worksheet generation, interactive simulations, math activities, step-by-step solvers, question bank, and exam papers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
