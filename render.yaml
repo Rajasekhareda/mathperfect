@@ -1,0 +1,19 @@
+# Render Blueprint for MATH PERFECT full-stack app.
+# One Express server serves both the API (/api/*) and the React frontend.
+# Auto-deploys on every push to main → "updatable anytime".
+services:
+  - type: web
+    name: mathperfect
+    runtime: node
+    region: singapore
+    plan: free
+    branch: main
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        sync: false   # set manually in Render dashboard after create
